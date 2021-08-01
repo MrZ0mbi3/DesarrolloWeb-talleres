@@ -118,5 +118,29 @@ public class validadores {
         return resultado;
 
     }
+
+    public boolean validacionPaginas(String nPaginas)
+    {
+        boolean resultado=true;
+        if(nPaginas.isEmpty())
+        {
+            resultado=false;
+            System.out.println("páginas vacio");
+            System.out.println("No se pudo detallar el libro");
+        }
+        else if(!nPaginas.chars().allMatch(Character::isDigit))
+        {
+            resultado=false;
+            System.out.println("El nuemro de páginas es incorrecto no es un numero");
+            System.out.println("No se pudo detallar libro");
+        }
+        else if ( (Integer.parseInt(nPaginas)<0 ) || ( (Integer.parseInt(nPaginas)>1500 )))
+        {
+            resultado=false;
+            System.out.println("El nuemro de páginas es incorrecto porque es negativo o superior a 1500 páginas ");
+            System.out.println("No se pudo detallar libro");
+        }
+        return resultado;
+    }
     
 }

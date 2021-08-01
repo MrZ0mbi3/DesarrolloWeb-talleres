@@ -1,4 +1,3 @@
-ssdafadfasdfsdafaf,sdafasdfsadsssssssssssssss,32452345,sadsssssffff asdfsssssssssssssssss,1234,0
-aaaaaaaaaaaaa,aaaaaaaaaaaaaa,123412341,asdfsad sadfas,1235,0
-Nuevo libro,nuevo,123445,nuevo libro,1543,0
-NUevo libro,nuevo nuevo ,12345,Nuevo lib,1234,0
+Viaje al centro de la Tierra--Trata de la expedicion de un profesor de mineralogia el profesor Lidenbrock,viaja al interior de la Tierra y se encuentran en su aventura con una gran sorpresa al llegar--25000--Julio Verne--1864--300
+De la Tierra a la Luna--Un intrépido proyecto aviva los corazones de los miembros del Gun-Club. Se trata de enviar a la Luna un proyectil--20000--Julio Verne--1865--260
+En las montanas de la locura--La novela detalla los eventos de una desastrosa expedición a la Antartida en septiembre de 1930--30000--H. P. Lovecraft--1936--290

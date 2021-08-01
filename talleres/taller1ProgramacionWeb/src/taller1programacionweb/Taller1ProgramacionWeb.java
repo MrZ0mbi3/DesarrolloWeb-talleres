@@ -74,6 +74,9 @@ public class Taller1ProgramacionWeb {
             }
             else if(entrada.equals("3"))
             {
+                System.out.print("\nTitulo de libro a buscar:");
+                entrada=escanerEntrada.nextLine();       
+                tienda.detallarLibro(entrada);         
                 entrada="";
 
             }

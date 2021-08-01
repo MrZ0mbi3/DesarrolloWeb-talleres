@@ -21,7 +21,7 @@ public class libreria {
             BufferedReader lector= new BufferedReader(archivo);
             while((linea=lector.readLine())!=null)
             {
-                aux=linea.split(",");
+                aux=linea.split("--");
                 n=new libro(aux[0], aux[1], aux[2], aux[3], aux[4],aux[5]);
                 libros.add(n);
             }
@@ -77,6 +77,14 @@ public class libreria {
                 System.out.println("Libro: " + lib.getTitulo() +"  Autor: " + lib.getAutor());
             }
         }
+    }
+
+    public void detallarLibro(String nTitulo)
+    {
+        for (libro lib : libros) 
+        {
+            lib.detallarlibro(nTitulo);
+        }   
     }
     
 }
