@@ -1,2 +1,4 @@
-ssdafadfasdfsdafaf,sdafasdfsadsssssssssssssss,32452345,sadsssssffff asdfsssssssssssssssss,1234
-aaaaaaaaaaaaa,aaaaaaaaaaaaaa,123412341,asdfsad sadfas,1235
+ssdafadfasdfsdafaf,sdafasdfsadsssssssssssssss,32452345,sadsssssffff asdfsssssssssssssssss,1234,0
+aaaaaaaaaaaaa,aaaaaaaaaaaaaa,123412341,asdfsad sadfas,1235,0
+Nuevo libro,nuevo,123445,nuevo libro,1543,0
+NUevo libro,nuevo nuevo ,12345,Nuevo lib,1234,0

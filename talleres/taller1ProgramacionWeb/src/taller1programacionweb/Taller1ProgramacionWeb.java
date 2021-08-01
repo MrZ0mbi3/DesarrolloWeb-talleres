@@ -57,7 +57,7 @@ public class Taller1ProgramacionWeb {
                     if(validador.validacionAutor(nombre, apellido) && validador.validacionDescripcion(descripcion) && validador.validacionPrecio(precio) && validador.validacionTitulo(titulo) && validador.validacionpublicacion(anio) )
                     {
                         aux=nombre+" "+apellido;
-                        nuevo=new libro(titulo, descripcion, precio,aux , anio);
+                        nuevo=new libro(titulo, descripcion, precio,aux , anio,"0");
                         tienda.agregarLibro(nuevo);
                     }
                 
@@ -65,6 +65,10 @@ public class Taller1ProgramacionWeb {
             }
             else if(entrada.equals("2"))
             {
+                System.out.print("\nAutor de libros a buscar:");
+                entrada=escanerEntrada.nextLine();
+                tienda.listarLibrosPorAutor(entrada);
+
                 entrada="";
 
             }
