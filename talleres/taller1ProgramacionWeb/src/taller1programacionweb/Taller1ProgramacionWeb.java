@@ -75,6 +75,7 @@ public class Taller1ProgramacionWeb {
             }
             else if(entrada.equals("4"))
             {
+                tienda.guardarListaLibros();
                 salir=false;
             }
 
